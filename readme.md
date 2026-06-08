@@ -1,4 +1,4 @@
-# Warm up exercises
+# Warm-up exercises
 
 This repository contains a set of Java exercises that will help you review the content of the Programming 1 course and familiarize yourself with the technical implementation of the exercises for the advanced course. This repository covers three main topics:
 
@@ -8,15 +8,15 @@ This repository contains a set of Java exercises that will help you review the c
 
 In this file, you will find the assignments and instructions for testing your solutions. Detailed instructions on the functionality of each method and class can be found in the provided Java classes of the task template.
 
-Exercise's each section have ready made [JUnit](https://junit.org/) unit test, which are located in the [src/test/java/](./src/test/java/) directory. You can run the tests either using your code editor's testing tool ([VS Code](https://code.visualstudio.com/docs/java/java-testing), [Eclipse](https://www.vogella.com/tutorials/JUnitEclipse/article.html)) or using the [Gradle tool](https://docs.gradle.org/current/userguide/java_testing.html). You don't need to get into the technical implementation of the tests. Right now, it is enough that you run the tests and familiarize yourself with the possible error messages.
+Each exercise's section has ready-made [JUnit](https://junit.org/) unit tests, which are located in the [src/test/java/](./src/test/java/) directory. You can run the tests either using your code editor's testing tool ([VS Code](https://code.visualstudio.com/docs/java/java-testing), [Eclipse](https://www.vogella.com/tutorials/JUnitEclipse/article.html)) or using the [Gradle tool](https://docs.gradle.org/current/userguide/java_testing.html). You don't need to get into the technical implementation of the tests. Right now, it is enough that you run the tests and familiarize yourself with the possible error messages.
 
-Note, that you can't change the names of the classes or methods, or the types of the parameters or return values. These kind of changes will cause compilation errors for the tests. If you happen to change a file and want to revert the changes, you can do that using the `git restore` command:
+Note that you can't change the names of the classes or methods, or the types of the parameters or return values. These kinds of changes will cause compilation errors for the tests. If you happen to change a file and want to revert the changes, you can do that using the `git restore` command:
 
 ```sh
 git restore path/to/the/file
 ```
 
-## Starting the exerices
+## Starting the exercises
 
 Once you have created your own repository from the exercise's template repository, clone your Git repository to your own computer using the `git clone` command. The exercise must be done in your own copy, so **make sure that your GitHub username is included in the repository address!**
 
@@ -30,9 +30,13 @@ Once you have cloned the repository, open it in your code editor.
 
 Once you have solved some or all of the tasks and committed your answers, submit the solutions for evaluation using the `git push` command. Git push will automatically trigger a GitHub Actions workflow that compiles and tests your solutions, providing a pass or fail result for each test.
 
-Once the GitHub Actions has executed your code, you see the results in your GitHub repository's ["Actions" tab](../../actions/workflows/grading.yml). It usually takes a few minutes for the assesment to be completed. 
+Once the GitHub Actions has executed your code, you see the results in your GitHub repository's ["Actions" tab](../../actions/workflows/grading.yml). It usually takes a few minutes for the assessment to be completed. 
+
+<img width="1381" height="384" alt="Actions tab" src="https://github.com/user-attachments/assets/c8995e27-8e7d-45a6-a598-8621b2e32d49" />
 
 By clicking on the latest *"Grading"* execution from the link above, you will get detailed information about the task evaluation. The red cross symbol ❌ on the execution indicates that you don't have the full points yet, whereas the green checkmark ✅ indicates you have the full points. The "Grading summary" section contains your total points and a breakdown of points from each part.
+
+<img width="1357" height="774" alt="Grading summary" src="https://github.com/user-attachments/assets/1b1ce0fe-974a-423a-bea3-d7c43f2a585a" />
 
 > [!TIP] 
 > You can submit your solution (by using the `git push` command) for evaluation as many times as needed until the task deadline. However, make sure that the latest submission yields the best points, as only the most recent points will be valid.
