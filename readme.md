@@ -1,4 +1,4 @@
-# Warm up exercises
+# Warm-up exercises
 
 This assignment repository contains a set of Java exercises that will help you review the content of the Programming 1 course and familiarize yourself with the technical implementation of the exercises for the advanced course. This repository covers three main topics:
 
@@ -8,9 +8,9 @@ This assignment repository contains a set of Java exercises that will help you r
 
 In this file, you will find the exercises and instructions for testing your solutions. Detailed instructions on the functionality of each method and class can be found in the provided Java classes of the exercise template.
 
-Exercise's each section have ready made [JUnit](https://junit.org/) unit test, which are located in the [src/test/java/](./src/test/java/) directory. You can run the tests either using your code editor's testing tool ([VS Code](https://code.visualstudio.com/docs/java/java-testing), [Eclipse](https://www.vogella.com/tutorials/JUnitEclipse/article.html)) or using the [Gradle tool](https://docs.gradle.org/current/userguide/java_testing.html). You don't need to get into the technical implementation of the tests. Right now, it is enough that you run the tests and familiarize yourself with the possible error messages.
+Each section of the exercise has ready-made [JUnit](https://junit.org/) unit tests, located in the [src/test/java/](./src/test/java/) directory. You can run the tests either using your code editor's testing tool ([VS Code](https://code.visualstudio.com/docs/java/java-testing), [Eclipse](https://www.vogella.com/tutorials/JUnitEclipse/article.html)) or using the [Gradle tool](https://docs.gradle.org/current/userguide/java_testing.html). You don't need to get into the technical implementation of the tests. Right now, it is enough that you run the tests and familiarize yourself with the possible error messages.
 
-Note, that you can't change the names of the classes or methods, or the types of the parameters or return values. These kind of changes will cause compilation errors for the tests. If you happen to change a file and want to revert the changes, you can do that using the `git restore` command:
+Note that you can't change the names of the classes or methods, or the types of the parameters or return values. These kinds of changes will cause compilation errors for the tests. If you happen to change a file and want to revert the changes, you can do that using the `git restore` command:
 
 ```sh
 git restore path/to/the/file
@@ -19,6 +19,8 @@ git restore path/to/the/file
 ## Starting the assignment
 
 Once you have created your own repository from the assignment's template repository, clone your Git repository to your own computer using the `git clone` command. The assignment must be done in your own copy, so **make sure that your GitHub username is included in the repository address!**
+
+<img width="465" height="405" alt="p2-warming-up-clone" src="https://github.com/user-attachments/assets/8d7d03e7-0876-4ea3-ae74-9e78d902533a" />
 
 ```sh
 git clone https://github.com/YOUR_GITHUB_USERNAME/programming-2-warming-up.git
