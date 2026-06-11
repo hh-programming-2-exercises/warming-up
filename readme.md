@@ -34,7 +34,11 @@ Once you have solved some or all of the exercises and committed your answers, su
 
 Once the GitHub Actions has executed your code, you see the results in your GitHub repository's ["Actions" tab](../../actions/workflows/grading.yml). It usually takes a few minutes for the assesment to be completed. 
 
+<img width="1381" height="384" alt="Actions tab" src="https://github.com/user-attachments/assets/e102b2d1-44a7-4061-8d05-d092db8cd0c4" />
+
 By clicking on the latest *"Grading"* execution from the link above, you will get detailed information about the task evaluation. The red cross symbol ❌ on the execution indicates that you don't have the full points yet, whereas the green checkmark ✅ indicates you have the full points. The "Grading summary" section contains your total points and a breakdown of points from each part.
+
+<img width="1357" height="774" alt="Grading summary" src="https://github.com/user-attachments/assets/7ff1b288-13a3-4037-aa9f-f4e1e29bac54" />
 
 > [!TIP] 
 > You can submit your solution (by using the `git push` command) for evaluation as many times as needed until the task deadline. However, make sure that the latest submission yields the best points, as only the most recent points will be valid.
